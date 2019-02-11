@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+  <Placemark>
+      <description>PIN 1 - Red PIN</description>
+      <Style id="normalPlacemark">
+	<IconStyle>
+	  <color>ff0000ff</color>
+	  <Icon>
+	    <href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+	  </Icon>
+	</IconStyle>
+      </Style>
+      <Point>
+	<coordinates>-77.680000,43.086720,0.00</coordinates>
+      </Point>
+  </Placemark>
+
+  <Placemark>
+      <description>PIN 2 - Default Pin is Yellow</description>
+      <Point>
+	<coordinates>-77.680500,43.086720,0.00</coordinates>
+      </Point>
+  </Placemark>
+
+    <Placemark>
+      <description>Green PIN - first ff is the Alpha, then 00 is the blue, next ff is green, and the last is red.</description>
+	<Style id="normalPlacemark">
+	    <IconStyle>
+	      <color>ff00ff00</color>
+	      <Icon>
+		<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+	      </Icon>
+	    </IconStyle>
+	</Style>
+      <Point>
+	<coordinates>-77.681000,43.086720,0.02</coordinates>
+      </Point>
+    </Placemark>
+
+ </Document>
+</kml>
